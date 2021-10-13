@@ -1,26 +1,18 @@
-body {
-    background-color: chocolate;
-    }
-    
-    h1 {
-        background-color: brown;
-        color: chocolate;
-    }
-    
-    #show_sketch {
-        float:right
-    }
-    
-    p {
-        padding: 10px;
-        font-size: 25px;
-    }
+body
+{
+background-color:#a9f04b;
+}
 
-    h1
+h1
 {
   font-family: 'Special Elite', fantasy;
   color:rgb(38, 0, 255);
   background-color: cornsilk;
+}
+
+#sketch_name
+{
+  color:red;
 }
 
 #show_sketch
@@ -54,3 +46,16 @@ p, span
     font-size:25px;
     
   }
+
+#score
+{
+  font-size:35px;
+  margin-left: 20px;
+}
+
+#time
+{
+  font-size:35px;
+  float: right;
+  margin-right: 20px;
+}
